@@ -6,6 +6,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Education from './components/pages/Education';
 import WorkExperience from './components/pages/WorkExperience';
 
+// git add -A
+// git commit -m "my_portfolio_first_commit"
+// git push -u origin main
 
 function App() {
   return (
