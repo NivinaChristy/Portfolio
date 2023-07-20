@@ -8,7 +8,7 @@ const HeroSection =() => {
   return (
     <div className='hero-container'>
       {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
-      <img src='./images/bg-1.jpg'/>
+      <img src='public/images/bg-1.jpg'/>
       <div className="info">
         <p> I am Nivina Christy.</p>
       </div>
