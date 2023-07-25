@@ -8,7 +8,8 @@ function HeroSection () {
   return (
     <div className='hero-container'>
       {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
-      <img src='../images/bg-1.jpg'/>
+      <img src={process.env.PUBLIC_URL + "/images/bg-1.jpg"} />
+      {/* <img src='../images/bg-1.jpg'/> */}
       <div className="info">
         <p> I am Nivina Christy.</p>
       </div>
@@ -45,7 +46,8 @@ function HeroSection () {
         </div>
         </div>
         <div className="mypic">
-          <img src='/images/mypic.jpg'/>
+          <img src={process.env.PUBLIC_URL + "/images/mypic.jpg"} />
+          {/* <img src='/images/mypic.jpg'/> */}
         </div>
       </div>
     </div>

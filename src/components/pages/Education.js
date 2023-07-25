@@ -21,7 +21,8 @@ export default function Education() {
                 <h2>Stereo Image Depth Estimation using U-Net feature extraction.</h2>
                 <p>Developed stereo depth estimation on the KITTI2012 dataset using U-Net feature extraction and conducted experiments to finetune the results by optimizing the hyperparameters.Improved the feature extraction of base model using qualitative results and reduced the loss of validation data by 14%</p>
                 <figure>
-                  <img src="images/perception.png"></img>
+                  <img src={process.env.PUBLIC_URL + "/images/perception.png"} />
+                  {/* <img src="images/perception.png"></img> */}
                   <figcaption>Original Image- Feature Extraction - Segmented result</figcaption>
                 </figure>
                 {/* <p>Visualization of the Stereo Image Depth Estimation results using U-Net feature extraction. The model accurately estimates depth information from stereo image pairs, enabling advanced perception capabilities for autonomous systems and computer vision applications.</p> */}
@@ -44,7 +45,8 @@ After analyzing the results, a key finding is that the pre-trained BERT model ou
                 <h2>Fashion Outfit Generation using Machine Learning Recommendation.</h2>
                 <p>Developed a recommendation system using a bidirectional LSTM model on the Polyvore dataset to suggest a suitable combination of fashion outfits.Improved AUC score to .829 using Resnet50 feature extraction on image dataset over state of art Inception_v3 model.</p>
                 <figure>
-                  <img src="images/recom.png"></img>
+                  <img src={process.env.PUBLIC_URL + "/images/recom.png"} />
+                  {/* <img src="images/recom.png"></img> */}
                   <figcaption>Fashion Recommendation</figcaption>
                 </figure>
               </div>
@@ -90,7 +92,8 @@ After analyzing the results, a key finding is that the pre-trained BERT model ou
           </div>
         </div>
         <div className="TKM">
-        <img src="images/tkm.jpg"></img>
+          <img src={process.env.PUBLIC_URL + "/images/tkm.jpg"} />
+          {/* <img src="images/tkm.jpg"></img> */}
          <div>
          <h3>TKM College of Engineer &middot; B-Tech - Electronics and communications </h3>
           <b> Aug 2015 -May 2019</b>

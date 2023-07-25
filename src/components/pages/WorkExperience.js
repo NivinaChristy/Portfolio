@@ -9,7 +9,8 @@ export default function WorkExperience() {
     <div className="work_container">
       <div className="wordWrap">
         <div className="Elxsi">
-        <img src="images/ELXSI.jpg"></img>
+          <img src={process.env.PUBLIC_URL + "/images/ELXSI.jpg"} />
+          {/* <img src="images/ELXSI.jpg"></img> */}
           <div>
             <h3>TATA ELXSI &middot; Senior Engineer </h3>
             <b> Nov 2019 - July 2022</b>
