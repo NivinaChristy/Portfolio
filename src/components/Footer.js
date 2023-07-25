@@ -17,7 +17,7 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/portfolio' className='social-logo'>
               Nivina Christy
             </Link>
           </div>

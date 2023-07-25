@@ -14,14 +14,14 @@ function Cards() {
               src={process.env.PUBLIC_URL + "/images/result_111_10.png"}
               text='Stereo Image Depth Estimation using U-Net feature extraction.'
               label='Computer Vision'
-              path='/Education'
+              path='/portfolio/Education'
             />
             <CardItem
               src={process.env.PUBLIC_URL + "/images/nlp.jpeg"}
               // src='images/nlp.jpeg'
               text='Propaganda Detection on news articles.'
               label='Natural Language Processing'
-              path='/Education'
+              path='/portfolio/Education'
             />
           </ul>
           <ul className='cards__items'>
@@ -30,21 +30,21 @@ function Cards() {
               // src='images/sml.jpg'
               text='Fashion Outfit Generation using Machine Learning Recommendation.'
               label='Recommendation System'
-              path='/Education'
+              path='/portfolio/Education'
             />
             <CardItem
               src={process.env.PUBLIC_URL + "/images/automotive.jpg"}
               // src='images/automotive.jpg'
               text='AUTOSAR Diagnostic Stack Development'
               label='Automotive'
-              path='/WorkExperience'
+              path='/portfolio/WorkExperience'
             />
             <CardItem
               // src='images/auto1.jpg'
               src={process.env.PUBLIC_URL + "/images/auto1.jpg"}
               text='DC-DC Converter Research Program for Electric Vehicle'
               label='Automotive'
-              path='/WorkExperience'
+              path='/portfolio/WorkExperience'
             />
           </ul>
         </div>

@@ -35,8 +35,7 @@ function HeroSection () {
         <div className="aboutme-content">
           <h2>About Me</h2>
           <p>
-            I am a master's student in Robotics and Autonomous Engineering from Arizona State University, with an electronics and communication bachelors degree from TKM, college of engineering.
-            I am a passionate developer with industrial experience who has genuine interest to expand knowledge in various domain. 
+           As a Robotics and Autonomous Engineering master's student at Arizona State University, I hold a bachelor's degree in Electronics and Communication from TKM College of Engineering. With practical experience in the industry, I am an enthusiastic developer driven by a genuine curiosity to broaden my expertise across diverse domains.
           </p>
         </div>
         <div className="aboutme-info">
