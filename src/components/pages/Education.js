@@ -10,7 +10,8 @@ export default function Education() {
     <><h1 className='projects'>EDUCATION</h1><div className="education-main">
       <div className="EDU_WRAP">
         <div className="ASU">
-          <img src="images/asu.jpg"></img>
+          <img src={process.env.PUBLIC_URL + "/images/asu.jpg"} />
+          {/* <img src="/images/asu.jpg"></img> */}
           <div>
             <h3>Arizona State University &middot; Master's in Robotics and Autonomous Systems Engineering </h3>
             <b> Aug 2022 -May 2024</b>
@@ -54,8 +55,8 @@ After analyzing the results, a key finding is that the pre-trained BERT model ou
                 <p>The "Self-Balancing Motorcycle" project involves the development of an innovative and autonomous self-balancing motorcycle using an Arduino Nano 33 IoT board in MATLAB. The primary objective of this project is to design and implement a state space model using Simulink, allowing the motorcycle to maintain its balance in various conditions.The PD Controller is responsible for continuously adjusting the motorcycle's position based on real-time sensor data, ensuring that it remains upright and stable during dynamic motions.Through rigorous testing and tuning of the balancing algorithm, the project successfully achieves an improved system stability. The self-balancing motorcycle can effectively withstand external disturbances and maneuver through both straight and circular paths with remarkable precision and control.</p>
                 <h4>Check out the awesome video here</h4>
                 <body>
-                  <div class="youtube-link-container">
-                  <a href="https://www.youtube.com/watch?v=oXit5hOdNic" class="youtube Link">Youtube Link </a>
+                  <div className="youtube-link-container">
+                  <a href="https://www.youtube.com/watch?v=oXit5hOdNic" className="youtube Link">Youtube Link </a>
                   </div>
                 </body>
                 
@@ -67,8 +68,8 @@ After analyzing the results, a key finding is that the pre-trained BERT model ou
                 <p>The project showcases the development and programming of an autonomous rover. The primary objective of this project is to enable the rover to navigate and follow a predefined path using image processing techniques.The rover's path-following capability is achieved through sophisticated image processing algorithms. The onboard camera captures the surrounding environment, and the image processing module analyzes the visual data to identify the path. The rover then intelligently adjusts its movements based on this analysis, allowing it to stay on course with high precision.Through rigorous testing and optimization, the project attains an impressive 97% accuracy in motion planning.</p>
                 <h4>Click below for the video</h4>
                 <body>
-                  <div class="youtube-link-container">
-                  <a href="https://www.youtube.com/watch?v=ejubK3HIYb8&t=9s" class="youtube Link">Youtube Link </a>
+                  <div className="youtube-link-container">
+                  <a href="https://www.youtube.com/watch?v=ejubK3HIYb8&t=9s" className="youtube Link">Youtube Link </a>
                   </div>
                 </body>
               </div>
@@ -79,8 +80,8 @@ After analyzing the results, a key finding is that the pre-trained BERT model ou
                 <p>The "Drawing Robot" project demonstrates the creation of an innovative and intelligent drawing robot capable of replicating any input image provided. The primary objective of this project is to develop a precise and autonomous robotic system that can accurately reproduce intricate drawings with exceptional accuracy.The drawing robot is equipped with coordinated motor systems that control the motion of its arms and drawing instrument. These motors enable the robot to move with remarkable precision and execute intricate strokes, faithfully reproducing the details of the input image.Through advanced control algorithms, the drawing robot achieves an impressive accuracy rate of more than 93%.In addition to its precision, the drawing robot also demonstrates efficient performance, boasting a drawing speed of 0.66 cm/sec. </p>
                 <h4>Click below for the video</h4>
                 <body>
-                  <div class="youtube-link-container">
-                  <a href="https://www.youtube.com/watch?v=LAiQY8xGtQI&t=3s" class="youtube Link">Youtube Link </a>
+                  <div className="youtube-link-container">
+                  <a href="https://www.youtube.com/watch?v=LAiQY8xGtQI&t=3s" className="youtube Link">Youtube Link </a>
                   </div>
                 </body>
               </div>
